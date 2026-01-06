@@ -1,0 +1,19 @@
+{
+  "name": "blinko-nsfw-blur",
+  "version": "1.0.0",
+  "description": "NSFW blur plugin for Blinko",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.0.0"
+  }
+}
