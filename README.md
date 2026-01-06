@@ -2,7 +2,7 @@
 
 Automatically blurs notes containing NSFW or other sensitive tags in Blinko, similar to the Memos blur feature. Click any blurred note to reveal its content.
 
-# ⚠️ UNDER CONSTRUCTION AND LIKELY DOESNT WORK ⚠️
+# ⚠️ UNDER AND LIKELY DOESNT WORK ⚠️
 
 ## Features
 
