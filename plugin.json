@@ -1,0 +1,31 @@
+{
+  "id": "blinko-nsfw-blur",
+  "name": "NSFW Blur",
+  "version": "1.0.0",
+  "description": "Automatically blurs notes with NSFW tags. Click to reveal content.",
+  "author": "Your Name",
+  "main": "dist/index.js",
+  "settings": [
+    {
+      "key": "blurTags",
+      "label": "Blur Tags (comma-separated)",
+      "type": "text",
+      "default": "#nsfw",
+      "description": "Tags that trigger blur effect. Supports child tags (e.g., #nsfw/art)"
+    },
+    {
+      "key": "blurIntensity",
+      "label": "Blur Intensity (px)",
+      "type": "number",
+      "default": 20,
+      "description": "How blurred the content should be (1-50)"
+    },
+    {
+      "key": "showWarning",
+      "label": "Show Warning Label",
+      "type": "boolean",
+      "default": true,
+      "description": "Display 'NSFW Content - Click to Reveal' on blurred notes"
+    }
+  ]
+}
